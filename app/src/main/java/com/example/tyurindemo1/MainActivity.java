@@ -27,10 +27,13 @@ public class MainActivity extends AppCompatActivity {
         indicator.attachToPager(viewPager);
     }
 
-    public void testClick(View view) {
+    public void SignInClick(View view) {
         Intent intent = new Intent(MainActivity.this, SignIn.class);
         startActivity(intent);
-        //overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-        //finish();
+    }
+
+    public void SignUpClick(View view) {
+        Intent intent = new Intent(MainActivity.this, SignUp.class);
+        startActivity(intent);
     }
 }
