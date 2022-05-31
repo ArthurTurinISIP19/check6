@@ -237,7 +237,7 @@
                         android:layout_height="40dp"
                         android:layout_weight="1"
                         android:background="@drawable/button_background"
-                        android:hint="qwe"
+                        android:hint="Search"
                         android:inputType="textCapWords"
                         android:paddingLeft="17dp"
                         android:paddingTop="10dp"
