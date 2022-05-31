@@ -16,5 +16,7 @@ public class onBoardingOne extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_on_boarding_one, container, false);
+
+
     }
 }

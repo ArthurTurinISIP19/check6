@@ -16,14 +16,22 @@
 
     </androidx.viewpager.widget.ViewPager>
 
-    <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
-        android:id="@+id/indicator"
-        android:layout_width="wrap_content"
-        android:layout_height="49dp"
-        android:layout_marginLeft="200dp"
-        app:spi_dotSelectedColor="@color/white"
-        app:spi_dotSize="10sp"
-        app:spi_orientation="horizontal">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    </ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator>
+        <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:spi_dotSelectedColor="@color/white"
+            app:spi_dotSize="10sp"
+            app:spi_orientation="horizontal">
+
+        </ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
