@@ -17,8 +17,9 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="300dp"
+        android:layout_width="300sp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:fontFamily="@font/nunito_sans"
         android:text="Fastest Delivery 24/7"
         android:textAlignment="center"
@@ -26,7 +27,6 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
